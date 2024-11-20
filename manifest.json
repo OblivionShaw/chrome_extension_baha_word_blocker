@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "隱藏巴哈首頁特定內容",
+  "description": "隱藏包含特定字詞的表格行",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.gamer.com.tw/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
