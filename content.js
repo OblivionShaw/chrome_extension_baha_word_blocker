@@ -33,4 +33,14 @@ if (window.location.href.includes("https://www.gamer.com.tw/")) {
       }
     });
   });
+ 
+ // 隱藏包含特定字詞的卡片
+  const cardNews = document.querySelectorAll('.card_secondnews');  // 選取所有的卡片元素
+  cardNews.forEach(card => {
+    // 檢查卡片內的 <a> 標籤是否包含指定字詞
+    const link = card.querySelector('a');
+    if (link && blockWords.some(word => link.textContent.includes(word))) {
+      card.style.display = "none";  // 隱藏符合條件的卡片
+    }
+  });
 }
