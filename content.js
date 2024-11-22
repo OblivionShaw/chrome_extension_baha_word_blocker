@@ -11,7 +11,9 @@ if (window.location.href.includes("https://www.gamer.com.tw/")) {
     "暗黑破壞神",
     "魔獸世界",
 	"天堂",
-	"天堂 W"
+	"天堂 W",
+	"PS5 / PlayStation5",
+	"PS4 / PlayStation4"
   ];
 
   function hideBlockedRows() {
