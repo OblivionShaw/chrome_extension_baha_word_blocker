@@ -9,7 +9,9 @@ if (window.location.href.includes("https://www.gamer.com.tw/")) {
     "英雄聯盟 League of Legends",
     "英雄聯盟",
     "暗黑破壞神",
-    "魔獸世界"
+    "魔獸世界",
+	"天堂",
+	"天堂 W"
   ];
 
   function hideBlockedRows() {
